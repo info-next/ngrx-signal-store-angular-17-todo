@@ -1,0 +1,18 @@
+.todo-list{
+    .list{
+       border-bottom: 1px solid gray;
+       &:hover{
+        background-color: rgb(201, 125, 25);
+           color: #fff;
+           border-radius: 10px;
+       }
+       .task,.delete,.checkbox:hover{
+        transform: scale(1.1);
+        transition: .3s ease;
+        cursor: pointer;
+       }
+       .completed{
+            text-decoration: line-through !important;
+       }
+    }
+}
